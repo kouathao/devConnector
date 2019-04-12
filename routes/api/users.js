@@ -22,8 +22,8 @@ router.get("/test", (req, res) =>
   })
 );
 
-// @route   GET api/users/test
-// $desc    Test users route
+// @route   post api/users/test
+// $desc    Register users
 // @access  Public
 
 router.post("/register", (req, res) => {
